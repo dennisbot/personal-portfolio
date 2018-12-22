@@ -1,0 +1,17 @@
+body {
+  background-color: azure;
+}
+
+nav {
+  background-color: #d1e1ff;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+#navbar li {
+  padding: 18px;
+}
