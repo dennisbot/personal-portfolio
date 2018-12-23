@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Thasadith" rel="stylesheet">
     <title>Team work!</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <style>@media only screen and (max-width: 1200px) {
-        body {
-          background-color: lightblue;
-        }
-      }</style>
+    <style>
+    @media only screen and (min-width: 370px) {
+      #navbar {
+        justify-content: flex-end;
+      }
+    </style>
     <nav>
       <ul id="navbar">
         <li>
@@ -28,14 +30,20 @@
 
       </ul>
     </nav>
-    <section id="welcome-section"><h1>welcome section content</h1>
+    <section id="welcome-section">
+      <div>
+        <h1>Hey!, I'm Mimic</h1>
+        <p>a web developer</p>
+      </div>
     </section>
     <section id="projects">
-      <div class="project-tile"><a href="#">Project Saturn</a></div>
+      <div class="project-tile"><a href="#"><img src="https://www.universetoday.com/wp-content/uploads/2018/04/Saturn-Storm.jpg" alt="saturn planet"></a><p>Project Saturn</p></div>
     </section>
     <section id="contact">
-      <a id="profile-link" href="https://github.com/stiakov" target="_blank">Santiago Torres</a>
-      <a href="https://github.com/dennisbot">Dennis Huillca</a>
+      <div>
+        <a id="profile-link" href="https://github.com/stiakov" target="_blank"><i class="fab fa-github"></i> Santiago Torres</a>
+        <a href="https://github.com/dennisbot"><i class="fab fa-github"></i> Dennis Huillca</a>
+      </div>
     </section>
 
     

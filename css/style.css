@@ -1,21 +1,39 @@
-#welcome-section {
-    height: 100vh;
+a {
+  text-decoration: none;
 }
 
-body {
+h1 {
+   font-family: 'Lobster', cursive; 
+}
+
+h1 + p {
+  font-family: 'Thasadith', sans-serif; 
+}
+
+#welcome-section {
   background-color: azure;
+  height: 100vh;
+}
+
+#welcome-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-section h1, #welcome-section p, body {
+  margin: 0;
 }
 
 nav {
   background-color: #d1e1ff;
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 nav ul li a {
-  /* font-family: 'Lobster', cursive; */
   font-family: 'Lobster Two', cursive;
-  /* font-family: 'Thasadith', sans-serif; */
 }
 
 #navbar {
@@ -23,11 +41,45 @@ nav ul li a {
   justify-content: space-around;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
+
 #navbar li {
   padding: 18px;
 }
 
 #projects {
   font-family: 'Lobster', cursive;
-} 
+  background-color: blanchedalmond;
+}
+
+#projects .project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects .project-tile img {
+  width: 30vh;
+}
+
+#contact {
+  background-color: lavenderblush;
+}
+
+#contact > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact a {
+  margin: 8px;
+  font-family: 'Thasadith', sans-serif; 
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
