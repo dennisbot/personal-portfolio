@@ -1,9 +1,16 @@
+#welcome-section {
+    height: 100vh;
+}
+
 body {
   background-color: azure;
 }
 
 nav {
   background-color: #d1e1ff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #navbar {
