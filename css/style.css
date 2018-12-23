@@ -12,6 +12,11 @@ nav {
   top: 0;
   width: 100%;
 }
+nav ul li a {
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Lobster Two', cursive;
+  /* font-family: 'Thasadith', sans-serif; */
+}
 
 #navbar {
   display: flex;
@@ -22,3 +27,7 @@ nav {
 #navbar li {
   padding: 18px;
 }
+
+#projects {
+  font-family: 'Lobster', cursive;
+} 
